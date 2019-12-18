@@ -7,9 +7,16 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "vue": {
+    "lintOnSave": false
+  },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.1.0",
+    "chart.js": "^2.9.3",
     "core-js": "^3.4.3",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
